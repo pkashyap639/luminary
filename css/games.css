@@ -1,0 +1,132 @@
+.game-grid{
+    display: grid;
+    margin: 0 auto;
+    width: 80%;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.game-grid-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.game-grid-flex{
+    flex: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-head{
+    font-size: 4rem;
+    font-weight: bold;
+    color: #E95420;
+    text-align: center;
+    margin-top: 0;
+}
+
+.game-img{
+    width: 250px;
+}
+
+.game-desc{
+    text-align: center;
+    font-size: 2rem;
+    color: #E95420;
+    font-weight: bold;
+}
+
+
+.grid-table{
+    display: grid;
+    margin: 0 auto;
+    width: 80%;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin-bottom: 2rem;
+}
+
+.grid-table-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.grid-flex-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 100%;
+}
+
+table{
+    width: 100%;
+}
+
+th{
+    font-size: 1.5rem;
+    color: #000;
+}
+
+td{
+    text-align: center;
+    padding: 10px 16px;
+}
+
+table,th,td{
+    border-bottom: 2px solid black;
+    border-collapse: collapse;
+}
+
+.game-icon{
+    width: 2rem;
+}
+
+/* Tab */
+@media only screen and (max-width: 768px) {
+    .game-img{
+        width: 200px;
+    }
+
+    .game-desc{
+        font-size: 1.2rem;
+    }
+
+    .game-head{
+        font-size: 2.5rem;
+    }
+
+}
+
+/* Mobile */
+@media only screen and (max-width: 425px) {
+
+    .game-head{
+        font-size: 2.5rem;
+    }
+
+    .game-desc{
+        font-size: 1.2rem;
+    }
+    .game-grid{
+        display: grid;
+        margin: 0 auto;
+        width: 80%;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .game-img{
+        width: 150px;
+    }
+
+    th{
+        font-size: 1.2rem;
+    }
+
+    td{
+        font-size: .9rem;
+    }
+}

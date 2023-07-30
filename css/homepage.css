@@ -1,0 +1,860 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    padding: 16px;    
+
+}
+
+.navitem{
+    display: inline;
+    align-items: center;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navitem a{
+    text-decoration: none;
+    color: #fff;
+    padding: 14px 16px;
+    font-size: medium;
+}
+.navitem a:hover{
+    color: #E95420;
+    transition: 1s;
+ }
+
+#logo{
+    width: 30px;
+}
+
+#footer-logo{
+    width: 130px;
+}
+
+.navlogo{
+    display: inline;
+    align-items: center;
+    font-weight: bold;
+}
+
+.navlogo a{
+    text-decoration: none;
+    color: #fff;
+    padding: 14px 16px;
+}
+
+/* First Jumbotron */
+.banner-grid-container{
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-image: url('../img/background/bg01.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-grid-item{
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.banner-flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.banner-flex-item{
+    flex: 1;
+    text-align: center;
+}
+
+.banner-flex-item1{
+    flex: 100%;
+}
+.banner-head-one{
+    display: inline;
+    font-size: 1.8rem;
+    font-weight: bold;
+    background-color: #E95420;
+    color: white;
+    margin: 0 !important;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.banner-flex-item2{
+    flex: 100%;
+}
+
+.banner-head-two{
+    display: inline;
+    font-size: 8rem;
+    font-weight: bold;
+    color: #E95420;
+}
+
+#span-head2{
+    color: white;
+}
+
+.banner-flex-item3{
+    flex: 100%;
+    text-align: center;
+}
+
+.banner-text-one{
+    display: inline-block;
+    font-size: 1rem;
+    width: 80%;
+    margin-top: 0 !important;
+    color: white;
+}
+
+.banner-flex-item4{
+    flex: 100%;
+    margin-bottom: 1.3em;
+}
+
+.banner-register-button{
+    display: inline;
+    color: #E95420;
+    
+    font-weight: bold;
+    border: 2px solid #E95420;
+    padding: 6px 14px;
+}
+
+.banner-register-button:hover{
+    
+    color:#fff;
+    font-weight: bold;
+}
+
+.banner-register-button a{
+    text-decoration: none;
+    color: #E95420;
+}
+
+.banner-register-button a:hover{
+    text-decoration: none;
+    color:#fff;
+}
+
+.banner-flex-item5{
+    flex: 100%;
+}
+
+/* Tournamnet div */
+.tournament-container{
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.tournament-grid-item{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tournament-flex-item{
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+}
+
+.tournament-card{
+    background-color: black;
+    border: 4px solid #E95420;
+    border-radius: 1em;
+}
+
+.tournament-name{
+    font-weight: bold;
+    font-size: 1.7rem;
+    margin-bottom: 0 !important;
+    color: #E95420;
+}
+
+.tournament-game-name{
+    font-size: 1rem;
+    margin-top: 0 !important;
+    font-weight: bold;
+    color: #fff;
+}
+
+.logo-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-line img {
+    width: 120px; 
+    margin: 0 30px; 
+}
+
+/* Winning Team Div */
+.homepage-heading{
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-bottom: 0 !important;
+    color: #E95420;
+}
+
+.homepage-head-description{
+    margin-top: 0 !important;
+    text-align: center;
+    color: #77216F;
+    font-weight: bold;
+}
+
+.team-container{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.team-grid-item{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.team-flex-item{
+    flex: 1;
+    text-align: center;
+}
+
+
+.winner-img{
+    border-radius: 100%;
+    border: 5px solid #E95420;
+    padding: 0.5em;
+    width: 60%;
+}
+
+.winner-name{
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: 0 !important;
+    color: #E95420;
+}
+
+.game-name{
+    font-size: 1rem;
+    margin-top: 0 !important;
+    font-weight: bold;
+    color: #77216F;
+}
+
+/* Our Services Jumbotron */
+.small-jumbotron{
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 3rem;
+    
+}
+
+.jumbotron-item{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.jumbotron-flex-item{
+    flex: 1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.small-jumbotron-heading{
+    font-weight: bolder;
+    font-size: 4rem;
+    text-align: left;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    color: #fff;
+}
+
+.services-button{
+    margin: 0 auto;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.services-button:hover{
+    color: #77216F;
+    transition: 1s;
+}
+
+.view-services-link{
+    text-decoration: none;
+    color: #fff;
+}
+
+.view-services-link:hover{
+    color: #77216F;
+    transition: 1s;
+}
+
+
+/* footer */
+.footer {
+    list-style-type: none;
+    float: right;
+    display: inline-flex;
+}
+
+.footeritem {
+    font-weight: bold;
+}
+
+.footeritem a {
+    text-decoration: none;
+    color: #fff;
+    padding: 14px 16px;
+}
+
+#socials{
+    float: right;
+}
+
+.social-container {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    background-color: rgb(50, 50, 50);
+    border-radius: 100%;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.social-container:hover {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    background-color: #E95420;
+    border-radius: 100%;
+    margin-right: 10px;
+    text-align: center;
+    transition: 1s;
+}
+
+.social-img {
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+}
+
+.footeritem a:hover {
+    color: #E95420;
+    transition: 1s;
+}
+
+#copyright{
+    color: white;
+    float: left;
+}
+
+#inlineDiv {
+    display: inline;
+    color: white;
+    padding-left: 10px;
+}
+
+footer {
+    height: 100px;
+    padding: 16px;
+    background-color: black;
+}
+
+/* Turnament2 Grid */
+
+.tournament-grid{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.tournament2-grid-item{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightgray;
+}
+
+.tournament2-flex-item{
+    flex: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+.tournament-img{
+    height: 100%;
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    padding: 10px;
+    text-align: center;
+    z-index: 1;
+  }
+  
+ .game2-name {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: #fff;
+  }
+
+  /* Desktop Media Query */
+@media only screen and (max-width: 1254px) {
+    .banner-head-one{
+        font-size: 1.6rem;
+    }
+    .banner-head-two{
+        font-size: 6rem;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .homepage-heading{
+        font-size: 2rem;
+    }
+
+    .winner-img{
+        padding: 0.2rem;
+        width: 60%;
+    }
+
+    .small-jumbotron-heading{
+        font-size: 2rem;
+    }
+
+    .small-jumbotron{
+        gap: 0px;
+    }
+}
+
+/* Tablet View */
+@media only screen and (max-width: 768px) {
+    .tournament-grid{
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+    }
+    .game2-name{
+        font-size: .9rem;
+    }
+    .winner-img{
+        padding: 0.2rem;
+        width: 70%;
+        border: 3px solid #E95420;
+    }
+    .winner-name{
+        font-size: 1rem;
+    }
+    .game-name{
+        font-size: .8rem;
+    }
+    .team-container{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .small-jumbotron-heading{
+        font-size: 2rem;
+    }
+
+    .banner-text-one{
+        font-size: .8rem;
+    }
+
+    .logo-line img{
+        width: 90px;
+    }
+}
+
+/* Mobile View */
+@media only screen and (max-width: 425px) {
+    .tournament-grid{
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+    .game2-name{
+        font-size: .9rem;
+    }
+    .team-container{
+        grid-template-columns: 1fr;
+    }
+    
+    .winner-img{
+        width: 60%;
+    }
+
+    .small-jumbotron{
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+
+    .small-jumbotron-heading{
+        font-size: 2rem;
+    }
+
+    .banner-text-one{
+        font-size: .8rem;
+    }
+}
+
+@media only screen and (max-width: 941px) {
+    .banner-head-one{
+        font-size: 1.4rem;
+    }
+    .banner-head-two{
+        font-size: 4rem;
+    }
+}
+
+
+
+@media only screen and (max-width: 720px){
+    .banner-head-two{
+        display: inline;
+        font-size: 4rem;
+        font-weight: bold;
+        color: #E95420;
+    }
+
+    .logo-line{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 627px){
+    .banner-head-one{
+        font-size: 1.2rem;
+    }
+
+    .banner-head-two{
+        font-size: 3.5rem;
+    }
+}
+@media only screen and (max-width: 620px) and (min-width: 461px) {
+
+    .banner-head-one{
+        font-size: 1rem;
+    }
+    .banner-head-two{
+        display: inline;
+        font-size: 3rem;
+        font-weight: bold;
+        color: #E95420;
+    }
+
+    .small-jumbotron-heading{
+        font-weight: bolder;
+        font-size: 1.8rem;
+        text-align: left;
+        display: flex;
+        padding-left: 10px;
+        margin: 0 auto;
+        justify-content: center;
+        color: #fff;
+    }
+
+    /* Footer */
+    .footer{
+        display: block;
+        float: left;
+        padding: 0px 0px 0px 10px;
+    }
+
+    .footeritem a {
+        text-decoration: none;
+        color: #fff;
+        padding: 0px 0px;
+    }
+
+    .footeritem a:hover {
+        color: #E95420;
+        transition: 1s;
+    }
+
+    
+    .social-container {
+        height: 30px;
+        width: 30px;
+        display: inline-block;
+    }
+
+    .social-container:hover {
+        height: 30px;
+        width: 30px;
+        display: inline-block;
+        background-color: #E95420;
+        transition: 1s;
+    }
+
+    #socials{
+        margin: 20px 10px;
+        padding: 0px;
+        float: none;
+    }
+
+    #copyright{
+        padding: 0px 0px 0px 10px;
+        float: none;
+        color: white;
+
+    }
+
+    #inlineDiv {
+        display: flex;
+        color: white;
+        padding-left: 10px;
+    }
+
+    footer {
+        height: 220px;
+        padding: 16px;
+        background-color: black;
+        display: block;
+    }
+}
+
+
+@media only screen and (max-width: 473px){
+    .banner-head-one{
+        font-size: 1rem;
+    }
+    .banner-head-two{
+        font-size: 2.5rem;
+    }
+}
+@media only screen and (max-width: 460px){
+    .banner-head-one{
+        font-size: 0.8rem;
+    }
+    .banner-head-two{
+        display: inline;
+        font-size: 2rem;
+        font-weight: bold;
+        color: #E95420;
+    }
+
+    .jumbotron-item{
+        display: block;
+    }
+
+
+    .banner-flex-item4 {
+        flex: 100%;
+        margin: 1.3em;
+    }
+
+    .logo-line{
+        margin-top: 30px;
+    }
+    .tournament-name{
+        font-size: 1rem;
+    }
+    .tournament-game-name{
+        font-size: 0.8rem;
+    }
+
+    /* Navbar */
+    .navitem{
+        display: inline;
+        align-items: center;
+        font-weight: bold;
+        color: #fff;
+    }
+    
+    .navitem a{
+        text-decoration: none;
+        color: #fff;
+        padding: 14px 10px;
+        font-size: small;
+    }
+    .navitem a:hover{
+        color: #E95420;
+        transition: 1s;
+     }
+
+    /* Footer */
+    .footer{
+        display: block;
+        float: left;
+        padding: 0px 0px 0px 10px;
+    }
+
+    .footeritem a {
+        text-decoration: none;
+        color: #fff;
+        padding: 0px 0px;
+    }
+
+    .footeritem a:hover {
+        color: #E95420;
+        transition: 1s;
+    }
+
+    
+    .social-container {
+        height: 30px;
+        width: 30px;
+        display: inline-block;
+    }
+
+    .social-container:hover {
+        height: 30px;
+        width: 30px;
+        display: inline-block;
+        background-color: #E95420;
+        transition: 1s;
+    }
+
+    #socials{
+        margin: 20px 10px;
+        padding: 0px;
+        float: none;
+    }
+
+    #copyright{
+        padding: 0px 0px 0px 10px;
+        float: none;
+        color: white;
+
+    }
+
+    #inlineDiv {
+        display: flex;
+        color: white;
+        padding-left: 10px;
+    }
+
+    footer {
+        height: 220px;
+        padding: 16px;
+        background-color: black;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 375px){
+    /* Navbar */
+    .navlogo a{
+        padding: 14px 5px;
+
+    }
+
+    .homepage-heading {
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.5rem;
+        margin-bottom: 0 !important;
+        color: #E95420;
+    }
+    .small-jumbotron-heading{
+        font-size: 2rem;
+    }
+
+    /* to change nav */
+    .navitem{
+        display: inline;
+        align-items: center;
+        font-weight: bold;
+        color: #fff;
+    }
+
+    .navitem a{
+        text-decoration: none;
+        color: #fff;
+        padding: 14px 5px;
+        font-size: small;
+    }
+    .navitem a:hover{
+        color: #E95420;
+        transition: 1s;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .small-jumbotron-heading{
+        font-size: 1.7rem;
+    }
+}
+
+@media only screen and (max-width: 246px) {
+    .small-jumbotron-heading{
+        font-weight: bolder;
+        font-size: 1rem;
+        text-align: left;
+        display: flex;
+        padding-left: 10px;
+        margin: 0 auto;
+        justify-content: center;
+        color: #fff;
+    }
+
+    .footer{
+        display: block;
+        float: left;
+        padding: 0px 0px 0px 10px;
+    }
+
+    .footeritem a {
+        text-decoration: none;
+        color: #fff;
+        padding: 0px 0px;
+    }
+
+    #socials{
+        padding: 0px;
+        float: none;
+        display: block;
+    }
+
+    footer {
+        height: 320px;
+        padding: 16px;
+        background-color: black;
+        display: block;
+    }
+}

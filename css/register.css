@@ -1,0 +1,156 @@
+.register-grid{
+    display: grid;
+    width: 30%;
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+    margin-top: 3rem;
+}
+
+.register-grid-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #F8FAFB;
+    border-radius: 20px;
+}
+
+.register-flex-item{
+    flex: 100%;
+}
+
+.register-head{
+    font-weight: bolder;
+    font-size: 3rem;
+    color: #E95420;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.register-desc{
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    margin-top: 0;
+}
+
+.login-link{
+    text-decoration: none;
+    color: #77216F;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    }
+
+.contact-form input,
+.contact-form textarea {
+    padding: 16px 10px;
+    margin-bottom: 10px;
+    border: 0;
+    background-color: white;
+}
+
+.contact-form input,
+.contact-form textarea::placeholder{
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-form textarea{
+    max-width: 100%;
+}
+.contact-form input,
+.contact-form textarea:focus {
+    outline: none;
+
+}
+
+#sendmsg{
+    width: 50%;
+    margin-bottom: 1rem;
+    background-color: #E95420;
+    border-radius: .6rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.sendmsgbtnbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    font-size: .9rem;
+    font-weight: bold;
+    color: #555555;
+    padding-bottom: .6rem;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #555555;
+}
+
+.register-flex-icon{
+    display: flex;
+    justify-content: center;
+}
+
+.icon-img{
+    width: 2.5rem;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* Desktop */
+@media only screen and (max-width: 1024px) {
+ 
+    .register-head{
+        font-size: 2rem;
+    }
+    .register-desc{
+        font-size: .9rem;
+    }
+
+    label{
+        font-size: .8rem;
+    }
+}
+
+/* Tab */
+@media only screen and (max-width: 768px) {
+
+    .register-grid{
+        display: grid;
+        width: 50%;
+        margin: 0 auto;
+        grid-template-columns: 1fr;
+        margin-top: 3rem;
+    }
+    
+}
+
+/* Mobile */
+@media only screen and (max-width: 425px) {
+
+    .register-grid{
+        display: grid;
+        width: 100%;
+        margin: 0 auto;
+        grid-template-columns: 1fr;
+        margin-top: 3rem;
+    }
+    
+}
