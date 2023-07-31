@@ -442,6 +442,58 @@ body{
     text-align: center;
 }
 
+/* Services Div */
+.services-div{
+    background-color: #1F2633;
+}
+
+.services-grid{
+    width: 100%;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    display: grid;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+.services-grid-item{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services-flex-item{
+    flex: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.to-service{
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    color: #E95420;
+    border: 0;
+}
+
+.to-service:hover{
+    background-color: #E95420;
+    color: #fff;
+}
+
+.console{
+    width: 200px;
+}
+
+
 /* footer */
 .footer {
     list-style-type: none;
