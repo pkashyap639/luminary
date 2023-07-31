@@ -453,58 +453,6 @@ footer {
     background-color: #171C26;
 }
 
-/* Turnament2 Grid */
-
-.tournament-grid{
-    width: 80%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin: 0 auto;
-    gap: 10px;
-}
-
-.tournament2-grid-item{
-    display: flex;
-    flex-wrap: wrap;
-    background-color: lightgray;
-}
-
-.tournament2-flex-item{
-    flex: 100%;
-    position: relative;
-    display: inline-block;
-}
-
-.tournament-img{
-    height: 100%;
-    width: 100%;
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); 
-    z-index: 1; 
-}
-
-.text-overlay {
-    position: absolute;
-    top: 50%; 
-    left: 50%; 
-    transform: translate(-50%, -50%); 
-    padding: 10px;
-    text-align: center;
-    z-index: 1;
-  }
-  
- .game2-name {
-    font-size: 1.2rem;
-    font-weight: bolder;
-    color: #fff;
-  }
 
 
 
@@ -514,6 +462,27 @@ footer {
         width: 100%;
     }
 }
+
+@media screen and (max-width: 1454px) {
+    .gaming-team-grid{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1204px) {
+    .team-img-box{
+        width: 300px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 948px) {
+    .team-img-box{
+        width: 230px;
+        height: 300px;
+    }
+}
+
 @media screen and (max-width: 1014px) {
     .gallery-grid{
         grid-template-columns: repeat(4,1fr);
@@ -540,6 +509,12 @@ footer {
 
     .controller-img{
         width: 400px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .gaming-team-grid{
+        grid-template-columns: 1fr 1fr;
     }
 }
 
@@ -579,7 +554,12 @@ footer {
     }
 }
 
-
+/* Mobile View */
+@media screen and (max-width: 486px) {
+    .gaming-team-grid{
+        grid-template-columns: 1fr ;
+    }
+}
 
 
 
