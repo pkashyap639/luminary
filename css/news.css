@@ -87,6 +87,13 @@ body{
     margin-top: 0;
 }
 
+/* TAB view */
+
+@media screen and (max-width: 768px) {
+    .news-grid{
+        grid-template-columns: 1fr;
+    }
+/* Mobile View */
 @media screen and (max-width: 425px) {
     .news-heading{
         font-size: 2rem;
