@@ -211,6 +211,14 @@
     .grid2-head{
         font-size: 2rem;
     }
+
+    .our-story-grid{
+        grid-template-columns:  1fr;
+    }
+
+    .soldier-img{
+        width: 400px;
+    }
 }
 
 @media only screen and (max-width: 1052px){
@@ -302,6 +310,12 @@
     }
     .hero-head-two{
         font-size: 1.5rem;
+    }
+    .soldier-img{
+        display: none;
+    }
+    .our-story-grid{
+        padding-top: 1.5rem;
     }
 }
 @media only screen and (max-width: 375px){
