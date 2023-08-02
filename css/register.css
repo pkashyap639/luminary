@@ -1,3 +1,7 @@
+body{
+    background-color: #171C26;
+}
+
 .register-grid{
     display: grid;
     width: 30%;
@@ -10,7 +14,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #F8FAFB;
+    background-color: #1f2633;
     border-radius: 20px;
 }
 
@@ -29,13 +33,13 @@
 .register-desc{
     font-weight: bold;
     text-align: center;
-    color: black;
+    color: white;
     margin-top: 0;
 }
 
 .login-link{
     text-decoration: none;
-    color: #77216F;
+    color: #E95420;
 }
 
 .contact-form {
@@ -50,8 +54,10 @@
 .contact-form textarea {
     padding: 16px 10px;
     margin-bottom: 10px;
-    border: 0;
-    background-color: white;
+    border: 2px solid #5D6D8B;
+    background-color: #191E29;
+    border-radius: .7rem;
+    color: white;
 }
 
 .contact-form input,
@@ -86,7 +92,7 @@
 label{
     font-size: .9rem;
     font-weight: bold;
-    color: #555555;
+    color: #5D6D8B;
     padding-bottom: .6rem;
 }
 

@@ -93,6 +93,7 @@ body{
     .news-grid{
         grid-template-columns: 1fr;
     }
+}
 /* Mobile View */
 @media screen and (max-width: 425px) {
     .news-heading{
