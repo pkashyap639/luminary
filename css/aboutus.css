@@ -98,6 +98,48 @@
     color: #fff;
     text-align: center;
 }
+/* our story */
+.our-story-grid{
+    display: grid;
+    width: 100%;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    background-color: #1f2633;
+    padding-top: 4rem;
+ 
+}
+.our-story-grid-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-story-flex-item{
+    flex: 1;
+}
+
+
+.our-story-head{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+}
+.our-story-content{
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+}
+
+.our-story-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /* Grid 2 */
 
