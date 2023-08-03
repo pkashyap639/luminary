@@ -43,10 +43,52 @@
 
 .services-head{
     margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 2rem;
     font-weight: bold;
     font-size: 3rem;
     text-align: center;
     color: white;
+}
+
+/* table */
+.table-div{
+    background-color: #1f2633;
+}
+
+.table-grid{
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 1fr;
+    width: 80%;
+}
+
+.table-grid-item{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.table-flex-item{
+    flex:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table,td,tr,th{
+    border-bottom: 2px solid #95acda;
+    color: white;
+    border-collapse: collapse;
+    padding: 10px 16px;
+}
+
+
+td{
+    text-align: center;
+}
+table{
+    width: 60%;
 }
 
 /* Desktop View */
