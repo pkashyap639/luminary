@@ -1,3 +1,69 @@
+/* Services  */
+.services-div{
+    background-color: #171C26;
+}
+
+.services-grid{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4,1fr);
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.services-grid-item{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services-flex-item{
+    flex: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-img-card{
+    width: 220px;
+    height: 150px;
+}
+
+.service-img{
+    width: 100%;
+    height: 100%;
+}
+
+.service-img-head{
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 0;
+}
+
+.services-head{
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+}
+
+/* Desktop View */
+
+@media screen and (max-width:1024px) {
+    .services-grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+/* Mobile View */
+
+@media screen and (max-width:466px) {
+    .services-grid{
+        grid-template-columns: 1fr;
+    }
+}
 /* Hero Images */
 
 .hero-image-one{
