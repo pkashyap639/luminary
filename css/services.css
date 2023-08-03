@@ -54,6 +54,7 @@
 /* table */
 .table-div{
     background-color: #1f2633;
+    padding-bottom: 2rem;
 }
 
 .table-grid{
@@ -91,15 +92,126 @@ table{
     width: 60%;
 }
 
+.plan-grid{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 0 auto;
+    padding-top: 2rem;
+    gap: 20px;
+}
+
+.plan-grid-item{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.plan-flex-item{
+    flex: 100%;
+}
+
+.plan-div{
+    background-color: #171C26;
+    padding-bottom: 2rem;
+}
+
+.plan-card{
+    background-color: #1f2633;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.plan-name{
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.plan-price{
+    color: #fff;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.plan-duration{
+    color: #95acda;
+    font-weight: bold;
+    font-size: .9rem;
+}
+
+.plan-btn{
+    background-color: #95acda;
+    padding: 10px 20px;
+    width: 9rem;
+    border: 0;
+    color: white;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
 /* Desktop View */
 
 @media screen and (max-width:1024px) {
     .services-grid{
         grid-template-columns: repeat(2,1fr);
     }
+
+    .table-grid{
+        width: 100%;
+    }
+
+}
+
+/* Tab View */
+@media screen and (max-width:768px) {
+    .plan-grid{
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 /* Mobile View */
+
+@media screen and (max-width:425px) {
+    .plan-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .plan-name{
+        font-size: .9rem;
+    }
+    
+    .plan-price{
+        color: #fff;
+        font-weight: bold;
+        font-size: 2rem;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    .plan-duration{
+        color: #95acda;
+        font-weight: bold;
+        font-size: .9rem;
+    }
+    
+    .plan-btn{
+        font-size: 1.2rem;
+    }
+
+    .services-head{
+        font-size: 1.2rem;
+    }
+
+    th,tr{
+        font-size: .8rem;
+    }
+}
 
 @media screen and (max-width:466px) {
     .services-grid{
