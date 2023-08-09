@@ -352,7 +352,7 @@
 
     .card-head{
         font-weight: bolder;
-        -webkit-text-stroke: 0.5px #E95420;
+        -webkit-text-stroke: 1.5px #E95420;
     }
 }
 @media only screen and (max-width: 672px){
