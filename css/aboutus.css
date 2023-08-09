@@ -349,6 +349,11 @@
     .join-us-grid{
         grid-template-columns: 1fr;
     }
+
+    .card-head{
+        font-weight: bolder;
+        -webkit-text-stroke: 0.5px #E95420;
+    }
 }
 @media only screen and (max-width: 672px){
     .about-grid2{
