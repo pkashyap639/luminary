@@ -351,9 +351,13 @@
     }
 
     .card-head{
-        font-weight: bolder;
-        -webkit-text-stroke: 1.5px #E95420;
+        margin-bottom: 0;
+        margin-top: 0;
+        font-size: 7rem;
+        font-weight: 700;
+        color: #E95420;
     }
+    
 }
 @media only screen and (max-width: 672px){
     .about-grid2{
